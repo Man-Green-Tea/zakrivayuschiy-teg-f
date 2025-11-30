@@ -29,5 +29,5 @@
   --animation-fill-color: #f00;
   /* --modal-padding: clamp(30px, 43.52px + -0.94vw, 40px);
   --modal-width: clamp(341px, 50vw, 353px); */
-  --modal-button-width: clamp(261px, 50vw, 293px)
+  --modal-button-width: clamp(261px, 50vw, 293px);
 }
