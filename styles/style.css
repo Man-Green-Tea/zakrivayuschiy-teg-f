@@ -325,12 +325,11 @@
   inset: 0;
   display: none;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
-  padding: 30px var(--modal-padding);
+  padding: 30px;
   transition: opacity 0.3s ease-in-out;
-  max-width: 373px;
 }
 
 .modal[open] {
@@ -371,7 +370,7 @@
 
 .modal__button {
   height: 38px;
-  inline-size: 288px;
+  width: var(--modal-button-width);
 }
 
 /* фильтры дял картинок */
